@@ -1,0 +1,24 @@
+{
+  "name": "question-3",
+  "version": "1.0.0",
+  "description": "IWP LAB Assessment-1 Question-3",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dheerajrathee777/IWPLab-ASS1-Q3.git"
+  },
+  "author": "Dheeraj Rathee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dheerajrathee777/IWPLab-ASS1-Q3/issues"
+  },
+  "homepage": "https://github.com/dheerajrathee777/IWPLab-ASS1-Q3#readme",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  }
+}

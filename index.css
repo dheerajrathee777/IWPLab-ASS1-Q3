@@ -1,0 +1,89 @@
+body
+{
+    font-size: 20px;
+}
+.myform
+{
+    padding:10px;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+.container
+{
+    padding:15px 120px 50px 120px;
+}
+
+.form-element
+{
+    padding:10px;
+}
+
+input[type="text"],input[type="password"]
+{
+   
+    border:2px solid#cccccc;
+    padding:7px;
+    border-radius: 5px; 
+    background-color: #f8f8f8;
+    width:230px;
+    font-size: 15px;
+    
+}
+
+input[type="password"]
+{
+    margin-left: 37px;
+}
+
+input[type="checkbox"]
+{
+    background-color:red;
+}
+
+.submit-btn,.reset-btn
+{
+    border: none;
+    color:white;
+    padding:14px 28px;
+    cursor:pointer;
+}
+
+.submit-btn:hover
+{
+    background-color: #46a049;
+}
+.submit-btn
+{
+    background-color: #4CAF50;
+}
+
+.reset-btn
+{
+    background-color: #f44336;
+}
+.reset-btn:hover
+{
+    background: #da190b;
+}
+
+textarea
+{
+    padding:12px 20px;
+    box-sizing: border-box;
+    border:2px solid #cccccc;
+    border-radius:5px;
+    background-color: #f8f8f8;
+    resize: none;
+    font-size: 17px;
+}
+
+select
+{
+    padding: 7px 7px;
+    border: 2px solid  #cccccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    font-size:15px;
+}
+
+

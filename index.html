@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Required Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+
+    <link rel="stylesheet" href="index.css">
+
+    <title>ISC-Feedback Form</title>
+</head>
+<body>
+    <div class="container">
+
+        <h1>ISC Questionare</h1>
+        <form class="myform">
+
+            <div class="form-element">
+                <label for="name">Student Name :</label>
+                <input type="text" id="name">
+            </div>
+
+            <div class="form-element">
+                <label for="password">Password :</label>
+                <input type="password" id="password">
+            </div>
+
+            <div class="form-element">
+                <label for="courses">Preferred Courses :</label>
+                <div>
+                    <label for="network">Networks</label>
+                    <input type="checkbox" id="network" name="courses" value="network">
+                    <label for="web">Web Programming</label>
+                    <input type="checkbox" id="web" name="courses" value="web">
+                    <label for="ds">Data Structures</label>
+                    <input type="checkbox" id="ds" name="courses" value="ds">
+                    <label for="os">Operating System</label>
+                    <input type="checkbox" id="os" name="courses" value="os">
+                </div>
+            </div>
+
+            <div class="form-element">
+                <label for="time">How many hours you study everyday ?</label>
+                <div>
+                    <label for="1-3">1-3 hours</label>
+                    <input type="radio" id="1-3" name="time" value="1-3">
+                    <label for="4-5">4-5 hours</label>
+                    <input type="radio" id="4-5" name="time" value="4-5">
+                    <label for="6-plus">More than 6 hours</label>
+                    <input type="radio" id="6-plus" name="time" value="6-plus">
+                </div>
+            </div>
+
+            <div class="form-element">
+                <label for="rating">Rate ISC Department :</label>
+                <select id="rating" name="rating">
+                    <option value="excellent">Excellent</option>
+                    <option value="average">Average</option>
+                    <option value="baverage">Below Average</option>
+                </select>
+            </div>
+
+            <div class="form-element">
+                <label for="comments">Further Comments :</label><br>
+                <textarea name="comments" id="comments" rows="6" cols="50">
+
+                </textarea>
+            </div>
+
+            <div class="form-element">
+                <input class="submit-btn" type="submit" value="Submit Form">
+                <input class="reset-btn" type="reset">
+            </div>
+
+        </form>
+    </div>
+    
+</body>
+</html>
